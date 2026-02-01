@@ -73,7 +73,7 @@
   opacity: 0.7;
 }</style>
     <!-- Cookie Consent -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
@@ -330,16 +330,16 @@
 </div>
   <nav class="navbar" dir="rtl">
   <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
-    <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
+    <svg class="hamburger-icon" width="24" height="24" viewbox="0 0 24 24" fill="none">
       <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
-    <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
+    <svg class="close-icon" width="24" height="24" viewbox="0 0 24 24" fill="none" style="display: none;">
       <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" aria-label="התקשר">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+    <svg width="20" height="20" viewbox="0 0 24 24" fill="currentColor">
       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
@@ -347,7 +347,7 @@
   <div class="nav-container">
     <div class="nav-right-group"><div class="nav-brand">
       <a href="/" class="logo-link">
-        <img src="/assets/business-logo.webp" alt="נאור פרסום ומדיה" class="logo" />
+        <img src="/assets/business-logo.webp" alt="נאור פרסום ומדיה" class="logo">
       </a>
     </div><ul class="nav-menu" id="navMenu">
       <li><a href="/services">שירותים</a></li>
@@ -713,7 +713,7 @@
         const phoneLinks = document.querySelectorAll('a[href^="tel:"]');
         const phoneNumber = phoneLinks.length > 0 
           ? phoneLinks[0].getAttribute('href').replace('tel:', '')
-          : '[business_phone]';
+          : '0547597599';
         
         window.location.href = 'tel:' + phoneNumber;
         console.log('[Navbar] Phone button clicked');
@@ -761,7 +761,7 @@
 
   
   <main>
-    <section class="services-hero-section" data-layout-spec="Services-hero">
+    <section class="services-hero-section" data-layout-spec="Services-hero" id="temp-section-1769901353941">
   <div class="services-hero-container">
     <div class="services-hero-content">
       <div class="services-hero-intro">
@@ -772,9 +772,9 @@
         <p class="services-hero-description">
           אנחנו משלבים אסטרטגיה, עיצוב ופיתוח ליצירת חוויות דיגיטליות שמניעות תוצאות עסקיות מדידות. מהרעיון ועד ההשקה - אנחנו איתך בכל שלב.
         </p>
-        <a href="#contact" class="services-hero-cta">
+        <a href="#contact" class="services-hero-cta" data-original-href="#contact">
           בואו נדבר
-          <i class="fas fa-arrow-left" style="margin-inline-start: 8px;"></i>
+          <i class="fas fa-arrow-left" style="margin-inline-start: 8px;" data-element-type="icon" data-element-id="icon-1769902118024-eqs1u0fvt" data-icon-type="fontawesome"></i>
         </a>
       </div>
 
@@ -800,13 +800,22 @@
     <div class="services-hero-visual">
       <div class="mockup-glow"></div>
       <div class="mockup-frame">
-        <img data-placeholder="services-hero-mockup" data-context="Modern dark UI interface mockup showing a sleek web dashboard with cyan and purple accent colors, featuring clean typography, data visualization elements, and a professional tech aesthetic for a digital agency" width="600" height="700" src="/assets/site-services-image-1.webp" alt="ממשק דיגיטלי מתקדם">
+        <img data-placeholder="services-hero-mockup" data-context="Modern dark UI interface mockup showing a sleek web dashboard with cyan and purple accent colors, featuring clean typography, data visualization elements, and a professional tech aesthetic for a digital agency" width="600" height="700" src="/assets/site-services-image-1.webp" alt="ממשק דיגיטלי מתקדם" data-element-type="image" data-element-id="img-1769902118025-woaq43zon" class="zappy-editable-image" data-resize-handler-attached="true">
       </div>
     </div>
   </div>
 
   <div class="hero-pattern-overlay"></div>
 </section>
+
+
+
+
+
+
+
+
+
 
 <section class="services-services-section" data-layout-spec="Services-services">
   <div class="services-container">
@@ -865,7 +874,7 @@
         <div class="model-row">
           <div class="model-header">
             <div class="model-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <rect x="3" y="3" width="18" height="18" rx="2"></rect>
                 <path d="M9 3v18"></path>
               </svg>
@@ -878,7 +887,7 @@
         <div class="model-row">
           <div class="model-header">
             <div class="model-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="12" cy="12" r="10"></circle>
                 <path d="M12 6v6l4 2"></path>
               </svg>
@@ -891,7 +900,7 @@
         <div class="model-row">
           <div class="model-header">
             <div class="model-icon">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <svg width="28" height="28" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M12 2v20M2 12h20"></path>
                 <circle cx="12" cy="12" r="9"></circle>
               </svg>
@@ -957,7 +966,7 @@
   <div class="footer-container">
     <div class="footer-grid">
       <div class="footer-column footer-about">
-        <img src="/assets/business-logo.webp" alt="נאור פרסום ומדיה" class="logo" />
+        <img src="/assets/business-logo.webp" alt="נאור פרסום ומדיה" class="logo">
         <p class="footer-description">מובילים בתחום פיתוח אתרים ושירותי אינטרנט מתקדמים. אנחנו כאן כדי להפוך את החזון הדיגיטלי שלך למציאות.</p>
       </div>
       
@@ -975,14 +984,14 @@
         <ul class="contact-list">
           <li>
             <i class="fas fa-envelope"></i>
-            <a href="mailto:[business_email]">[business_email]</a>
+            <a href="mailto:info@company.com">info@company.com</a>
           </li>
           <li>
             <i class="fas fa-phone"></i>
-            <a href="tel:[business_phone]">[business_phone]</a>
+            <a href="tel:0547597599">0547597599</a>
           </li>
           <li><a href="/services"><i class="fas fa-map-marker-alt"></i>
-            <span>[business_address]</span></a></li>
+            <span>כתובת החברה, TEL AVIV, MIDTOWN, ישראל</span></a></li>
         </ul>
       </div>
       
@@ -991,7 +1000,7 @@
         <div class="social-links">
           <a href="[facebook_handle]" aria-label="Facebook" class="social-icon"><i class="fab fa-facebook-f"></i></a>
           <a href="[instagram_handle]" aria-label="Instagram" class="social-icon"><i class="fab fa-instagram"></i></a>
-          <a href="[whatsapp_handle]" aria-label="WhatsApp" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+          <a href="https://wa.me/50762777728" aria-label="WhatsApp" class="social-icon"><i class="fab fa-whatsapp"></i></a>
         </div>
       </div>
     </div>
@@ -1014,7 +1023,7 @@
   </div>
 </footer>
   
-  <a href="https://wa.me/[whatsapp_handle]" class="whatsapp-float" aria-label="WhatsApp">
+  <a href="https://wa.me/50762777728" class="whatsapp-float" aria-label="WhatsApp">
     <i class="fab fa-whatsapp"></i>
   </a>
   

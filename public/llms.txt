@@ -1,53 +1,43 @@
-# נאור פרסום ומדיה — Generative Engine Optimization Map
-
-> A שירותי אינטרנט ופיתוח business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### Home
-https://-5e079661.zappy5.app
+https://example.com
 
 ### Services
-https://-5e079661.zappy5.app/services
+https://example.com/services
 
 ### Projects
-https://-5e079661.zappy5.app/projects
+https://example.com/projects
 
 ### Contact
-https://-5e079661.zappy5.app/contact
+https://example.com/contact
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://-5e079661.zappy5.app/privacy
+https://example.com/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://-5e079661.zappy5.app/terms
+https://example.com/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://-5e079661.zappy5.app/accessibility
+https://example.com/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About נאור פרסום ומדיה
-נאור פרסום ומדיה is a business in the שירותי אינטרנט ופיתוח industry.
-
-## Target Audience
-עסקים ונותני שירות
-
-## Industry
-שירותי אינטרנט ופיתוח
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://-5e079661.zappy5.app/sitemap.xml
-- **Robots.txt**: https://-5e079661.zappy5.app/robots.txt
+- **Sitemap**: https://example.com/sitemap.xml
+- **Robots.txt**: https://example.com/robots.txt

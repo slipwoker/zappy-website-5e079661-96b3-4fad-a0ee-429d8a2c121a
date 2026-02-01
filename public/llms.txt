@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# נאור פרסום ומדיה — Generative Engine Optimization Map
+
+> A שירותי אינטרנט ופיתוח business.
 
 ---
 
@@ -34,7 +36,15 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About נאור פרסום ומדיה
+נאור פרסום ומדיה is a business in the שירותי אינטרנט ופיתוח industry.
+
+## Target Audience
+עסקים ונותני שירות
+
+## Industry
+שירותי אינטרנט ופיתוח
+
 ---
 
 # Additional Resources
